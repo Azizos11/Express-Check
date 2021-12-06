@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    background-color: #121212;
+    max-height: 15%;
+    width: 100%;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    width: 14%;
+    margin-right: 2%;
+}
+.buttons li a {
+    color: white;
+    text-decoration: none;  
+}
+.navbar h1 {
+    margin-left: 2%;
+}
+.special {
+    text-align: center;
+    color: black;
+}
